@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form>
+            <input type="text"></input>
+        </form>
+        <div class="grid-container">
+            <button class="btn ac">AC</button>
+            <button class="btn divide" onclick="show(this)">/</button>
+            <button class="btn mult" onclick="show(this)">X</button>
+            <button class="btn seven" onclick="show(this)">7</button>
+            <button class="btn eight" onclick="show(this)">8</button>
+            <button class="btn nine" onclick="show(this)">9</button>
+            <button class="btn minus" onclick="show(this)">-</button>
+            <button class="btn four" onclick="show(this)">4</button>
+            <button class="btn five" onclick="show(this)">5</button>
+            <button class="btn six" onclick="show(this)">6</button>
+            <button class="btn plus" onclick="show(this)">+</button>
+            <button class="btn one" onclick="show(this)">1</button>
+            <button class="btn two" onclick="show(this)">2</button>
+            <button class="btn three" onclick="show(this)">3</button>
+            <button class="btn equal" onclick="compute()">=</button>
+            <button class="btn zero" onclick="show(this)">0</button>
+            <button class="btn deci" onclick="show(this)">.</button>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
